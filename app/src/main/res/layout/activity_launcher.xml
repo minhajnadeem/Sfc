@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context="com.mj.minhajlib.spotfoodcenter.Launcher">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger"/>
+
+        <ImageView
+            android:id="@+id/iv_cutlery"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/iv_cover"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_restaurant_cutlery"/>
+
+        <TextView
+            android:id="@+id/tv_spot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_cutlery"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="SPOT FOOD CENTER"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_spot"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="And Classic Resturant"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_res"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/delivery"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:onClick="launchMainActivity"
+                android:background="@drawable/ic_double_angle_pointing_to_right"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="Arfat-e-shereen road, near tailor market \n commercial area satellite town bahawalpur\nsfcbwp@gmail.com"/>
+    </RelativeLayout>
+
+</FrameLayout>

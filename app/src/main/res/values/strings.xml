@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Spot Food Center</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="appId">ca-app-pub-4227861033559247~9642330547</string>
+    <string name="adId">ca-app-pub-4227861033559247/9677989565</string>
+    <string name="adId2">ca-app-pub-4227861033559247/4799878038</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="afghan_food">Afghan Food</string>
+    <string name="personal_7">Personal 7"</string>
+    <string name="regular_11">Regular 11"</string>
+    <string name="large_13">Large 13"</string>
+    <string name="extra_cheese">Cheese \t S 30/- \t M 60/- \t L 80/-</string>
+    <string name="extra_chicken">Chicken \t S 30/- \t M 60/- \t L 80/-</string>
+    <string name="upsize">UPSIZE</string>
+    <string name="upsize_fries">Your Fires And Drink</string>
+    <string name="upsize_rs">In Just 25/-</string>
+    <string name="extra_topping">EXTRA TOPPING</string>
+
+    <string-array name="list_header">
+        <item>Burgers</item>
+        <item>Chicken Pieces</item>
+        <item>Side Orders</item>
+    </string-array>
+
+    <string-array name="phone_numbers">
+        <item>03346241289</item>
+        <item>03346241289</item>
+        <item>03346241289</item>
+    </string-array>
+</resources>

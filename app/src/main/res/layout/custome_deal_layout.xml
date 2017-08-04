@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+    android:background="@drawable/afghan_item_border">
+
+    <TextView
+        android:id="@+id/tv_deal_no"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@color/accent"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_deal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_deal_no"
+        android:fontFamily="casual"
+        android:paddingLeft="8dp"
+        android:text="1-Hot Shot"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:id="@+id/tv_deal_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:fontFamily="serif"
+        android:text="Rs.200"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"/>
+</RelativeLayout>

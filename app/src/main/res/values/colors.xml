@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF9800</color>
+    <color name="primary_dark">#F57C00</color>
+    <color name="primary_light">#ecf0f1</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_bg">#E0E0E0</color>
+
+    <!--<color name="colorPrimary">#FB8C00</color>-->
+    <!--<color name="colorPrimaryDark">#EF6C00</color>-->
+    <!--<color name="colorAccent">#FF3D00</color>-->
+    <!--<color name="textColor">#000000</color>-->
+    <!--<color name="white">#FFFFFF</color>-->
+
+    <color name="endColor">#FFEB3B</color>
+    <color name="centerColor">#FDD835</color>
+    <color name="startColor">#FDD835</color>
+
+    <color name="dealBackground">#FFF59D</color>
+    <color name="afghanMenuBg">#FFD54F</color>
+    <color name="red">#D50000</color>
+    <color name="pageTwoBg">#FFB74D</color>
+    <color name="pizzaText">#D50000</color>
+</resources>

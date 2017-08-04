@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/tv_pizza_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="1.SFC Special Pizza"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_price_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="serif"
+        android:text="700/-"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:id="@+id/tv_price_medium"
+        style="@style/pizzaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_price_large"
+        android:fontFamily="serif"
+        android:text="550"/>
+
+    <TextView
+        android:id="@+id/tv_price_small"
+        style="@style/pizzaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_price_medium"
+        android:fontFamily="serif"
+        android:text="270/-"/>
+
+    <TextView
+        android:id="@+id/tv_pizza_desc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pizza_name"
+        android:fontFamily="casual"
+        android:maxWidth="150dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="10sp"/>
+</RelativeLayout>
